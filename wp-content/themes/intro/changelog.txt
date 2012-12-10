@@ -1,0 +1,4 @@
+*** Intro Changelog ***
+
+2012.08.01 - version 1.0
+ * First release!

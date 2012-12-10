@@ -1,0 +1,68 @@
+body{min-width:1000px;}
+.comments .comment-form textarea,
+.comments .comment-form .txt,
+.comments .list-comments .text,
+.comments .list-comments img,
+aside .search-form .row,
+.paging li,
+.btn01 span,
+.btn01{behavior:url(css/PIE.htc);}
+* +html .slideshow .flex-control-nav li{
+	display:inline;
+	zoom:1;
+}
+footer #boxes{width:1008px;}
+* +html #main ol li {list-style-type:expression(function(t){t.runtimeStyle.listStyleType = 'none';t.insertAdjacentHTML('afterBegin','<span class="list-item-before">' + (++t.parentNode.IEcounter || (t.parentNode.IEcounter = 1)) + '. </span>');}(this));}
+* +html #main blockquote q .quote{
+	display:inline;
+	zoom:1;
+}
+* +html #main blockquote .quote{vertical-align:baseline;}
+.single-portfolio .list .image .mask span,
+.info .list .image .mask span{
+	position:absolute;
+	top:50%;
+	left:50%;
+	overflow:hidden;
+	width:16px;
+	text-indent:-9999px;
+	background:url(../images/ico-info.png) no-repeat;
+}
+.single-portfolio .list .image .mask .magnifying_glass,
+.info .list .image .mask .magnifying_glass{
+	background-position:0 0;
+	width:14px;
+	height:13px;
+	margin:-6px 0 0 -7px;
+}
+.single-portfolio .list .image .mask .camera,
+.info .list .image .mask .camera{
+	background-position:0 -13px;
+	height:12px;
+	margin:-6px 0 0 -8px;
+}
+.single-portfolio .list .image .mask .movie,
+.info .list .image .mask .movie{
+	background-position:0 -25px;
+	height:16px;
+	margin:-8px 0 0 -8px;
+}
+#portfolio #filtered .mask span{
+	position:absolute;
+	top:50%;
+	left:50%;
+	text-indent:-9999px;
+	overflow:hidden;
+	background:url(../images/ico-info.png) no-repeat;
+	width:16px;
+}
+#portfolio #filtered .filter-videos .mask .ico{
+	background-position:0 -25px;
+	height:16px;
+	margin:-6px 0 0 -8px;
+}
+#portfolio #filtered .filter-photos .mask .ico{
+	background-position:0 -13px;
+	height:12px;
+	margin:-6px 0 0 -8px;
+}
