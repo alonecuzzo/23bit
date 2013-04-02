@@ -1,0 +1,474 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Versatile\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-14 14:48+0530\n"
+"PO-Revision-Date: 2011-02-14 15:55+0530\n"
+"Last-Translator: Wajid Khan <king4u_7@yahoo.com>\n"
+"Language-Team: Khan <king4u_7@yahoo.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+# <h1 class="aligncenter" style="font-size:100px;">Oops! </h1>
+# <h2 class="aligncenter"><?php _e('Sorry the page you are looking cannot be found on this server. Please browse the below sitemap.','versatile_front')?></h2>
+# <div class="divider"></div>
+msgid "Sorry the page you are looking cannot be found on this server. Please browse the below sitemap."
+msgstr "Spiacente la pagina che lei non guardano può essere trovata su questo server. Per favore di curiosare il sotto il sitemap."
+
+# <?php _e('Pages','versatile_front')?>
+msgid "Pages"
+msgstr "Pagine"
+
+# <?php _e('Feed','versatile_front')?>
+msgid "Feed"
+msgstr "Feed"
+
+# <ul class="sitemap">
+# <li><a title="Full content" href="<?php bloginfo('rss2_url'); ?>"><?php _e('Main RSS','versatile_front'); ?></a></li>
+msgid "Main RSS"
+msgstr "Principali RSS"
+
+# <li><a title="Comment Feed" href="<?php bloginfo('comments_rss2_url'); ?>"><?php _e('Comment Feed','versatile_front'); ?></a></li>
+# </ul>
+msgid "Comment Feed"
+msgstr "Feed commenti"
+
+# <div class="one_fourth last">
+# <h3><?php _e('Categories','versatile_front'); ?></h3>
+# <ul class="sitemap"><?php wp_list_cats(''); ?></ul>
+msgid "Categories"
+msgstr "Categorie"
+
+# <?php _e('Archives','versatile_front'); ?>
+msgid "Archives"
+msgstr "Archivio"
+
+# <div class="subheader">
+# <div class="subtitle"><h1><?php _e('Archive','versatile_front'); ?></h1></div><div class="subdesc"><?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
+msgid "Archive"
+msgstr ""
+
+# <?php /* If this is a category archive */ if (is_category()) { ?>
+# <h3><?php _e('Category Archive for the','versatile_front'); ?> &#8216;<?php single_cat_title(); ?>&#8217; <?php _e('Category','versatile_front'); ?></h3>
+# <?php /* If this is a tag archive */ } elseif( is_tag() ) { ?>
+msgid "Category Archive for the"
+msgstr "Archivio categorie per"
+
+# <h3><?php _e('Category Archive for the','versatile_front'); ?> &#8216;<?php single_cat_title(); ?>&#8217; <?php _e('Category','versatile_front'); ?></h3>
+# <?php /* If this is a tag archive */ } elseif( is_tag() ) { ?>
+msgid "Category"
+msgstr ""
+
+# <?php /* If this is a tag archive */ } elseif( is_tag() ) { ?>
+# <h3><?php _e('Posts Tagged ','versatile_front'); ?>&#8216;<?php single_tag_title(); ?>&#8217;</h3>
+# <?php /* If this is a daily archive */ } elseif (is_day()) { ?>
+msgid "Posts Tagged "
+msgstr ""
+
+# <?php /* If this is a daily archive */ } elseif (is_day()) { ?>
+# <h3><?php _e('Daily Archive for ','versatile_front'); ?><?php the_time('F jS, Y'); ?></h3>
+# <?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
+msgid "Daily Archive for "
+msgstr "Archivio giornaliero per"
+
+# <?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
+# <h3><?php _e('Monthly Archive for ','versatile_front'); ?> <?php the_time('F, Y'); ?></h3>
+# <?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
+msgid "Monthly Archive for "
+msgstr "Archivio mensile per"
+
+# <?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
+# <h3><?php _e('Yearly Archive for ','versatile_front'); ?> <?php the_time('Y'); ?></h3>
+# <?php /* If this is an author archive */ } elseif (is_author()) { ?>
+msgid "Yearly Archive for "
+msgstr "Archivio annuale per"
+
+# <?php /* If this is an author archive */ } elseif (is_author()) { ?>
+# <h3><?php _e('Author Archive','versatile_front'); ?></h3>
+msgid "Author Archive"
+msgstr "Archivio autore"
+
+# <?php /* If this is a paged archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
+# <h3><?php _e('Blog Archives','versatile_front'); ?></h3>
+msgid "Blog Archives"
+msgstr "Blog Archives"
+
+# <span><?php the_time('M, D jS, Y'); ?></span>
+# <span><?php _e('Posted in','versatile_front'); ?> : <?php the_category(', '); ?> </span>
+msgid "Posted in"
+msgstr "Scritto in:"
+
+# <span><?php _e('Posted in','versatile_front'); ?> : <?php the_category(', '); ?> </span>
+# <span><?php _e('By','versatile_front'); ?> : <?php the_author_posts_link(); ?> </span>
+msgid "By"
+msgstr ""
+
+# <span><?php _e('By','versatile_front'); ?> : <?php the_author_posts_link(); ?> </span>
+# <span><a href="<?php the_permalink(); ?>#comments" title="<?php __('View Comments','versatile_front'); ?>"><?php comments_number(0, 1, '%'); ?> <?php _e('Comments','versatile_front'); ?></a></span>
+# <?php the_tags();?>
+msgid "View Comments"
+msgstr ""
+
+# <?php _e('Comments','versatile_front')
+msgid "Comments"
+msgstr ""
+
+# <?php global $more; $more = 0;  the_excerpt(''); ?>
+# <a href="<?php the_permalink() ?>" class="more-link alignright"><span><?php _e('Continue Reading','versatile_front');?> &rarr;</span></a>
+# </div>
+msgid "Continue Reading"
+msgstr ""
+
+# if ( is_category() ) { // If this is a category archive
+# printf('<h2 class="center">'.__( 'Sorry, but there aren\'t any posts in the %s category yet.', 'versatile_front' ).'</h2>', single_cat_title('',false));
+# } else if ( is_date() ) { // If this is a date archive
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr ""
+
+# } else if ( is_date() ) { // If this is a date archive
+# echo('<h2>'.__( 'Sorry, but there aren\'t any posts with this date.', 'versatile_front' ).'</h2>');
+# } else if ( is_author() ) { // If this is a category archive
+msgid "Sorry, but there aren't any posts with this date."
+msgstr ""
+
+# $userdata = get_userdatabylogin(get_query_var('author_name'));
+# printf('<h2 class="center">'.__( 'Sorry, but there aren\'t any posts by %s yet.', 'versatile_front' ).'</h2>', $userdata->display_name);
+# } else {
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr ""
+
+# } else {
+# echo('<h2 class="center">'.__( 'No posts found.', 'versatile_front').'</h2>');
+# }
+msgid "No posts found."
+msgstr "Nessun post trovato."
+
+# <?php get_search_form(); ?>
+# <h2><?php _e('Archives by Month:','versatile{_front'); ?></h2>
+# <ul>
+msgid "Archives by Month:"
+msgstr "Archivi per mese:"
+
+# </ul>
+# <h2><?php _e('Archives by Subject:','versatile{_front'); ?></h2>
+# <ul>
+msgid "Archives by Subject:"
+msgstr "Archivi per Oggetto:"
+
+# <?php _e('Home','versatile_front')
+msgid "Home"
+msgstr "Home"
+
+# <div class="breadcrumbs">
+# <a href="<?php bloginfo('siteurl'); ?>" title="home"><?php _e('Home','versatile_front');?></a> &#187; <a href="#" rel="bookmark" title="Posts Tagged &#8216;<?php single_tag_title(); ?>&#8217;"><?php _e('Posts Tagged','versatile_front');?> &#8216;
+# <?php single_tag_title(); ?>
+msgid "Posts Tagged"
+msgstr "Articoli marcati con tag"
+
+# <div class="breadcrumbs">
+# <a href="<?php bloginfo('siteurl'); ?>" title="home"><?php _e('Home','versatile_front');?></a> &#187; <a href="#" title="404 Error page"><?php _e('404 Error','versatile_front');?></a>
+# </div>
+msgid "404 Error"
+msgstr "Errore 404"
+
+# if ( post_password_required() ) { ?>
+# <p class="nocomments"><?php _e( 'This post is password protected. Enter the password to view comments.','versatile_front');?></p>
+# <?php
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Questo articolo &egrave; protetto da password. Inserisci la password perleggere i commenti."
+
+# printf( _n( 'One Response to %2$s', '%1$s Responses to %2$s', get_comments_number(), 'versatile_front' ),
+msgid "One Response to %2$s"
+msgstr "Una risposta a %2$s"
+
+# printf( _n( 'One Response to %2$s', '%1$s Responses to %2$s', get_comments_number(), 'versatile_front' ),
+msgid "%1$s Responses to %2$s"
+msgstr "%1$s risposta a %2$s"
+
+# </div>
+# <h3><?php comment_form_title( __('Leave a Reply','versatile_front'), __('Leave a Reply to %s','versatile_front') ); ?></h3>
+# <?php if ( get_option('comment_registration') && !$user_ID ) : ?>
+msgid "Leave a Reply"
+msgstr "Lascia un commento"
+
+# </div>
+# <h3><?php comment_form_title( __('Leave a Reply','versatile_front'), __('Leave a Reply to %s','versatile_front') ); ?></h3>
+# <?php if ( get_option('comment_registration') && !$user_ID ) : ?>
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Rispondi a %s"
+
+# <?php if ( get_option('comment_registration') && !$user_ID ) : ?>
+# <p><?php printf(__('You must be <a href="%s">logged in</a> to post a comment','versatile_front'),wp_login_url( get_permalink() )); ?></p>
+# <?php else : ?>
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment"
+msgstr "Devi essere <a href=\"%s\">loggato </a> per lasciare un commento"
+
+# <?php if ( $user_ID ) : ?>
+# <p><?php printf( __( 'Logged in as <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account">Log out?</a>','versatile_front'), admin_url( 'profile.php' ), $user_identity, wp_logout_url( get_permalink()  ) )?></p>
+# <?php else : ?>
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "Loggato come <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Esegui il log-out\">Log out?</a>"
+
+# <?php _e('Name','versatile_front');?>
+msgid "Name"
+msgstr "Nome"
+
+# <input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" />
+# <label for="email"><?php _e('Mail','versatile_front');  if ($req) echo " *"; ?></label>
+# </p>
+msgid "Mail"
+msgstr "Mail"
+
+# <input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" />
+# <label for="url"><?php _e('Website','versatile_front');  if ($req) echo " *"; ?></label>
+# </p>
+msgid "Website"
+msgstr "Sito web"
+
+# <div class="indent">
+# <p><a class="button small" href="#" onclick="jQuery('#commentform').submit();return false;"><span><?php _e('Post Comment','versatile_front');?></span></a></p>
+# <p><span><strong>XHTML:</strong> <?php _e('You can use these tags','versatile_front');?>: <?php echo allowed_tags(); ?></span></p>
+msgid "Post Comment"
+msgstr "Post Comment"
+
+# <p><a class="button small" href="#" onclick="jQuery('#commentform').submit();return false;"><span><?php _e('Post Comment','versatile_front');?></span></a></p>
+# <p><span><strong>XHTML:</strong> <?php _e('You can use these tags','versatile_front');?>: <?php echo allowed_tags(); ?></span></p>
+# <?php comment_id_fields(); ?>
+msgid "You can use these tags"
+msgstr "È possibile utilizzare questi tag"
+
+# <li><a href="<?php echo get_option('home'); ?>" title="<?php
+# bloginfo('name'); ?>"><?php _e('Home','versatile_front');?><span><?php _e('Frontpage','versatile_front');?></span></a></li>
+msgid "Frontpage"
+msgstr "Frontpage"
+
+# <div class="post" id="post-<?php the_ID(); ?>">
+# <?php the_content('<p class="serif">'.__('Read the rest of this page &raquo;', 'versatile_front').'</p>'); ?>
+# <?php wp_link_pages(array('before' => '<p><strong>'.__('Pages:', 'versatile_front').'</strong>', 'after' => '</p>', 'next_or_number' => 'number')); ?>
+msgid "Read the rest of this page &raquo;"
+msgstr "Leggi il resto di questa pagina &raquo;"
+
+# <form method="get" action="<?php bloginfo('url'); ?>/">
+# <input type="text" size="15" class="search-field" name="s" id="s" value="<?php _e('Search..', 'versatile_front');?>" onfocus="if(this.value == 'Search..') {this.value = '';}" onblur="if (this.value == '') {this.value = '<?php _e('Search..', 'versatile_front');?>';}"/>
+# <input type="submit"  value="" class="search-go" />
+msgid "Search.."
+msgstr "Cerca..."
+
+# result = (msg === 'OK') ? '<div class="messagebox success"><div class="messagebox_content"><?php _e('Your message has been sent. Thank you!','versatile_front');?></div></div>' : msg;
+msgid "Your message has been sent. Thank you!"
+msgstr "Il tuo commento &egrave; in attesa di moderazione."
+
+# <p><input class="required input_small txt" type="text" name="phone" value="" /><label><?php _e('Phone Number', 'versatile_front')?></label></p>
+msgid "Phone Number"
+msgstr "Numero di telefono"
+
+# <p><input class="required input_small txt" type="text" name="phone" value="" /><label><?php _e('Phone Number', 'versatile_front')?></label></p>
+msgid "E-Mail"
+msgstr "E-Mail"
+
+# <p><input class="required input_small txt" type="text" name="subject" value="" /><label><?php _e('Subject', 'versatile_front')?></label>
+msgid "Subject"
+msgstr "Oggetto"
+
+# <p><input class="required input_small txt" type="text" name="answer" value="" /><label><?php _e('Calculate (5-2+1)', 'versatile_front')?>  </label></p>
+msgid "Calculate (5-2+1)"
+msgstr "Calcolare (5-2+1)"
+
+# <p><a class="button small" href="#" onclick="jQuery('#ajax-contact-form').submit();return false;"><span><?php _e('Send','versatile_front');?></span></a></p>
+msgid "Send"
+msgstr "Invia"
+
+# {
+# $error .= __('Please enter your name.','versatile_front');
+# $error .= '<br />';
+msgid "Please enter your name."
+msgstr "Inserisci il tuo nome."
+
+# {
+# $error .= __('Please enter an e-mail address','versatile_front');
+# $error .= '<br />';
+msgid "Please enter an e-mail address"
+msgstr "Si prega di inserire un indirizzo email"
+
+# {
+# $error .= __('Please enter a valid e-mail address.','versatile_front');
+# $error .= '<br />';
+msgid "Please enter a valid e-mail address."
+msgstr "Si prega di inserire un indirizzo email valido."
+
+# if(!$phone || strlen($phone) < 8) {
+# $error .= __('Please enter your Phone Number. It should have 10 digits.','versatile_front');
+# $error .= '<br />';
+msgid "Please enter your Phone Number. It should have 10 digits."
+msgstr "Inserisci il tuo numero di telefono. Dovrebbe avere 10 cifre."
+
+# if(!$subject) {
+# $error .= __('Please enter your subject.','versatile_front');
+# $error .= '<br />';
+msgid "Please enter your subject."
+msgstr "Inserisci il tuo soggetto."
+
+# if( $answer <> $verificationanswer) {
+# $error .= __('Please enter the Correct verification number.','versatile_front');
+# $error .= '<br />';
+msgid "Please enter the Correct verification number."
+msgstr "Please enter the Correct verification number."
+
+# if(!$message || strlen($message) < 5) {
+# $error .= __('Please enter your message. It should have at least 5 characters.','versatile_front');
+# $error .= '<br />';
+msgid "Please enter your message. It should have at least 5 characters."
+msgstr "Inserisci il tuo messaggio. Esso dovrebbe avere almeno 5 caratteri."
+
+# __('Pages:', 'versatile_front')
+msgid "Pages:"
+msgstr "Pagine:"
+
+# <?php wp_link_pages(array('before' => '<p><strong>'.__('Pages:', 'versatile_front').'</strong>', 'after' => '</p>', 'next_or_number' => 'number')); ?>
+# <?php the_tags( '<p>'.__('Tags', 'versatile_front') ', ', ', '.'</p>'); ?>
+msgid "Tags"
+msgstr "Tags"
+
+# <?php endwhile; else: ?>
+# <?php '<p>'.__('Sorry, no posts matched your criteria.', 'versatile_front').'</p>'?>
+# <?php endif; ?>
+msgid "Sorry, no posts matched your criteria."
+msgstr "Spiacente, nessun post corrisponde ai tuoi criteri."
+
+# <?php echo get_avatar($comment,$size='60',$default=$default = $homeurl . '/images/default_avatar_visitor.gif' ); ?>
+# <?php printf(__('<cite class=\"fn\">%s</cite>', 'versatile_front'), get_comment_author_link()) ?>
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+# <?php printf(__('<cite class=\"fn\">%s</cite>', 'versatile_front'), get_comment_author_link()) ?>
+# <div class="comment-meta"> <?php printf(__('%1$s', 'versatile_front'), get_comment_date())?> <br />
+# <?php edit_comment_link(__('Edit', 'versatile_front'),'  ','') ?>
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+# __('Edit', 'versatile_front')
+msgid "Edit"
+msgstr "Modifica"
+
+# <div class="moderation"><em>
+# <?php _e('Your comment is awaiting moderation.', 'versatile_front') ?>
+# </em></div>
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento &egrave; in attesa di moderazione."
+
+# <div class="one_half">
+# <div class="widget_postslist"><h3><?php _e('Popular Posts','versatile_front');?></h3>
+# <ul>
+msgid "Popular Posts"
+msgstr "Articoli popolari"
+
+# if( $my_query->have_posts() ) { $related_post_found = true;
+# echo '<div class="widget_postslist"><h3>'.__('Related Posts','versatile_front').'</h3><ul>';
+# while ($my_query->have_posts()) {
+msgid "Related Posts"
+msgstr "Articoli correlati"
+
+# if(!$related_post_found){
+# echo '<div class="widget_postslist"><h3>'.__('Recent Posts','versatile_front').'</h3><ul>';
+# $myposts = get_posts('numberposts=3&offset=1');
+msgid "Recent Posts"
+msgstr "Articoli recenti"
+
+# <div class="blogpost">
+# <h2 class="entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Permanent Link to','versatile_front'), the_title_attribute() ); ?>"><?php the_title(); ?></a></h2>
+# <?php
+msgid "Permanent Link to"
+msgstr "Permalink a"
+
+# <?php global $more; $more = 0;  the_excerpt(''); ?>
+# <a href="<?php the_permalink() ?>" class="more-link"><span><?php _e('Continue Reading &rarr;','versatile_front');?></span></a>
+# </div>
+msgid "Continue Reading &rarr;"
+msgstr "Continua a leggere &rarr;"
+
+# $name_str = __('Name *','versatile_front');
+msgid "Name *"
+msgstr "Nome *"
+
+# $email_str = __('Email *','versatile_front');
+msgid "Email *"
+msgstr "E-mail *"
+
+# $submit_str = __('Submit','versatile_front');
+msgid "Submit"
+msgstr "Invia"
+
+# function sys_divider_top( $atts, $content = null ) {
+# return '<div class="divider top"><a href="#">'.__('Top','versatile_front').'</a></div>';
+# }
+msgid "Top"
+msgstr "Top"
+
+# $readmore_str = __('Read more &rarr;','versatile_front');
+msgid "Read more &rarr;"
+msgstr "Leggi tutto &raquo;"
+
+# $visitsite_str = __('Visit Site &rarr;','versatile_front');
+msgid "Visit Site &rarr;"
+msgstr "Visita il sito &rarr;"
+
+# $nopage_str = __('Sorry but we could not find what you were looking for. But don\'\t give up, keep at it','versatile_front');
+msgid "Sorry but we could not find what you were looking for. But don'\\t give up, keep at it"
+msgstr "Ci dispiace ma non siamo riusciti a trovare quello che stavi cercando. Ma non si arrendono, tiene a esso"
+
+# 'page_text' => '%PAGE_NUMBER%',
+# 'first_text' => __('&laquo; First','versatile_front'),
+# 'last_text' => __('Last &raquo;','versatile_front'),
+msgid "&laquo; First"
+msgstr "&laquo; Primo"
+
+# 'first_text' => __('&laquo; First','versatile_front'),
+# 'last_text' => __('Last &raquo;','versatile_front'),
+# 'next_text' => __('&raquo;','versatile_front'),
+msgid "Last &raquo;"
+msgstr "Ultimo &raquo;"
+
+# 'last_text' => __('Last &raquo;','versatile_front'),
+# 'next_text' => __('&raquo;','versatile_front'),
+# 'prev_text' => __('&laquo;','versatile_front'),
+msgid "&raquo;"
+msgstr "&raquo;"
+
+# 'next_text' => __('&raquo;','versatile_front'),
+# 'prev_text' => __('&laquo;','versatile_front'),
+# 'dotright_text' => __('...','versatile_front'),
+msgid "&laquo;"
+msgstr "&laquo;"
+
+msgid "..."
+msgstr "..."
+
+# $errorMessage =  __('Please enter a valid email address!','versatile_front');
+msgid "Please enter a valid email address!"
+msgstr "Si prega di inserire un indirizzo email valido!"
+
+# <div class="header_highlight">
+# <h1><?php _e('Super Flexible Wordpress Theme','versatile_front');?></h1>
+# <h4><?php _e('The ultimate all-in-one template. With over 40 unique style variations to choose from your website.','versatile_front');?></h4>
+msgid "Super Flexible Wordpress Theme"
+msgstr "Super Flexible Tema Wordpress"
+
+# <h1><?php _e('Super Flexible Wordpress Theme','versatile_front');?></h1>
+# <h4><?php _e('The ultimate all-in-one template. With over 40 unique style variations to choose from your website.','versatile_front');?></h4>
+# </div>
+msgid "The ultimate all-in-one template. With over 40 unique style variations to choose from your website."
+msgstr "L'all-in-one modello. Con oltre 40 variazioni di stile unica per scegliere dal tuo sito."
+

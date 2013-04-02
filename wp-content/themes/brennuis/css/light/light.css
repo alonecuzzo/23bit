@@ -1,0 +1,182 @@
+/** 
+ * Brennuis Magazine Light Color Theme 
+ * 
+ */
+
+/* =General
+-------------------------------------------------------------- */
+body {
+	background: url('../../images/light/bg-pattern.jpg') repeat;
+	color: #565656;
+}
+
+.ln-post-tags a, .ln-post-categories a { background-color: #e8e8e8; }
+
+a:hover,
+#sidebar a:hover {
+	background-color: #fddc7f;
+    color: #393939;
+}
+
+#top-section {
+	background-color: #393939;
+	border-bottom: solid 2px #393939;
+}
+
+.main-search input {
+	background-color: #f3f3f3;
+}
+
+#main-content {
+	background-color: #fff;
+	border: solid 1px #e1e1e1;
+	border-bottom: solid 6px #e8e8e8;
+}
+
+.main-search .main-search-button {
+	background-color: #f3f3f3;
+	background-image: url('../../images/light/arrow.png');
+}
+
+.section-head h3 { border-bottom: solid 3px #393939; }
+.section-head .arrow { background: url('../../images/light/arrow.png') no-repeat; }
+.section-line { background-color: #393939; }
+
+#main-search-button:hover { background-color: #f3f3f3; }
+
+input, textarea { border: solid 1px #e8e8e8; }
+
+table { border: solid 1px #e8e8e8; }
+	table tr td { border: solid 1px #e8e8e8; }
+	table thead { background-color: #f3f3f3; }
+
+/* =Typography
+-------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6, a {
+	color: #222;
+}
+
+hr { border: solid 1px #393939; }
+code, pre { color: #222; border: solid 1px #e8e8e8; background-image: url('../../images/light/code-bg-pattern.png'); }
+
+/* =Navigation
+-------------------------------------------------------------- */
+#main-nav-wrapper {
+	border-top: solid 6px #393939;
+	border-bottom: solid 2px #e8e8e8;	
+}
+
+.top-navigation a{ color: #fff; }
+
+nav ul li a { color: #222; }
+
+nav ul li.current-menu-item > a,
+nav ul li a:hover,
+nav ul li.current_page_parent > a{
+	background-color: #fddc7f;
+	color: #222;
+}
+
+nav ul li ul { background-color: #393939; }
+	nav ul li ul a { color: #fff; }
+
+#mobile-main-nav { background-color: #fddc7f; }
+
+#mobile-top-nav { background-color: #393939; color: #fff;}
+
+/* =Sidebar
+-------------------------------------------------------------- */
+#sidebar .sidebar-widget {
+	color: #c5c5c5;
+}
+
+#sidebar .sidebar-widget h1,
+#sidebar .sidebar-widget h2,
+#sidebar .sidebar-widget h3,
+#sidebar .sidebar-widget h4,
+#sidebar .sidebar-widget h5,
+#sidebar .sidebar-widget h6 { color: #fff; }
+
+#sidebar { background-color: #393939; background: url('../../images/light/sidebar-bg-pattern.png'); }
+	#sidebar a { color: #fff; }
+
+#sidebar table thead { background-color: #444; }
+
+/* =Modules
+-------------------------------------------------------------- */
+
+.flex-direction-nav li a { background-image: url('../../images/light/slider-direction-nav.png'); }
+
+.flexslider .flex-caption .separator { background-color: #fff; }
+
+.big-article .rating, .ln-blog-post .rating { background: url('../../images/light/rating-circle.png') no-repeat; }
+	.big-article .rating .score, .ln-blog-post .rating .score { color: #222; }
+	.big-article .rating span, .ln-blog-post .rating span { color: #777; }
+
+
+.img-hover { background-image: url('../../images/light/img-hover.png'); }
+
+.ln-carousel .control { background: url('../../images/light/carousel-navigation.png') no-repeat; }
+.carousel-article .rating { background-color: #fddc7f; color: #222; }
+.carousel-article .video-icon { background: url('../../images/light/video-icon.png') no-repeat; }
+
+/* =Blog
+-------------------------------------------------------------- */
+.ln-blog-post { border-bottom: solid 5px #393939; }
+	.ln-blog-post .format-icon { background: url('../../images/light/formats-icons-sprite.png') no-repeat; }
+.ln-quote-post blockquote, .ln-link-post { color: #222; }
+.ln-quote-post cite { color: #565656; }
+.ln-post-navigation .ln-col-half{ background-color: #f3f3f3; }
+.ln-review-post-rating .rating-wrap{ border: solid 4px #f3f3f3; }
+.rating-wrap .rating-box { background-color: #fddc7f; }
+.rating-wrap .score { color: #222; }
+.rating-numbers .criteria-score { background-color: #565656; }
+.rating-numbers .criteria-score .bar { background-color: #fddc7f; }
+
+
+.ln-pagination a,
+.ln-pagination .current{
+	background-image: url('../../images/light/pagination-sprite.png');
+	color: #222;
+}
+
+/* =Comments
+-------------------------------------------------------------- */
+.comment-content header { color: #222; }
+.ln-comments .bypostauthor > div.comment-wrap .comment-avatar { background-color: #393939; border: solid 5px #393939; }
+.ln-comments .bypostauthor > div.comment-wrap .comment-content { background-color: #f3f3f3; }
+
+/* =Widgets
+-------------------------------------------------------------- */
+.ln-tabs-wg .tabs-widget-nav li.ui-tabs-selected a,
+.ln-tabs-wg .tabs-widget-nav li a:hover,
+.tabs ul li.ui-tabs-selected a,
+.tabs ul li a:hover { 
+	background-color: #fddc7f;
+	color: #222;
+}
+
+.ln-social-widget { border-bottom: solid 2px #e8e8e8; }
+.ln-social-widget .social-wg-box .number { color: #222; }
+.ln-tabs-wg .tabs-widget-nav { border-bottom: solid 2px #393939; }
+
+.ln-tabs-wg .tabs-widget-nav ul li a { background-color: #fff; }
+
+.sidebar-widget .ln-tabs-wg .tabs-widget-nav ul li a { background-color: #444; }
+.sidebar-widget .ln-tabs-wg .tabs-widget-nav ul li.ui-state-active a { background-color: #fddc7f; color: #222!important; }
+#sidebar .widget-ln-facebook iframe { background-color: #f1f1f1; }
+
+/* =Other
+-------------------------------------------------------------- */
+.toggle .ui-icon{
+	background: url('../../images/light/toggle-closed.png') no-repeat;
+}
+
+.toggle .ui-state-active .ui-icon{
+	background: url('../..//images/light/toggle-opened.png') no-repeat;
+}
+
+ul.ln-checklist li {
+	background: url('../../images/light/ul-check-light.png') no-repeat 0 4px;
+}
+

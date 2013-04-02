@@ -1,0 +1,12 @@
+.jquery-checkbox {display: inline; font-size: 16px; line-height: 20px; cursor: pointer; cursor: hand; }
+.jquery-checkbox .mark {display: inline; }
+
+.jquery-checkbox img {vertical-align: middle; width: 74px; height: 20px; margin-bottom:5px;}
+.jquery-checkbox img{background: transparent url(../images/onoff.png) no-repeat;}
+
+.jquery-checkbox img{
+	background-position: 0px 0px;
+}
+.jquery-checkbox-checked img{
+	background-position: 0px -20px;
+}

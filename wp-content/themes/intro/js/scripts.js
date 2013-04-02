@@ -1,4 +1,5 @@
 jQuery(document).ready(function($){
+	jQuery.fn.exists = function () { return jQuery(this).length > 0; }
 	WebFontConfig = {
 		google: { families: [ 'Droid+Serif:400,400italic,700,700italic' , 'Bree+Serif', 'Yellowtail' ] },
 		loading: function() {

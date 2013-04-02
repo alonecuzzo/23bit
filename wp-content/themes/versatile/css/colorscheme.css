@@ -1,0 +1,58 @@
+body #header { background-image:url(../images/bgnew.jpg); background-repeat:no-repeat; background-position: center bottom; background-color: #4aa3b9; }
+
+body#boxed,
+.fancyheading span, 
+table.fancy_table th,
+#header, 
+.button,
+.copyright						{ background-color:#7ba9c9;}
+
+
+#footer							{ background-color:#f0f0f0; }
+
+	
+a								{ text-decoration:none; color:#000000; outline:none;	}
+
+
+a:hover,
+strong, 
+.breadcrumbs a:hover, 
+.post h2  a:hover 				{ color:#4c5b52; }
+
+.nav li a						{ color:#000; }
+
+.nav li a	 					{ color:#000; background:url(../images/trans_sep.png) top right repeat-y; }
+.nav ul li a 					{ color:#888; border:1px solid #ddd; border-bottom:none;}
+.nav ul li a:hover				{ color:#999; background:#fff url(../images/menu_bg_gradient_overlay.png) 0 -1px repeat-x;  }
+.nav ul							{ background: url("../images/arrow_up_dark.png") 10px 22px transparent no-repeat; /*ie6fix*/ }
+.nav .current-menu-item a strong	{ color:#aaa; font-weight: bold;}
+.nav ul	ul						{ background:none; } 
+.nav li ul 						{ border-bottom:1px solid #ddd; }
+
+#footer .sysform input.txt, 
+#footer .sysform textarea, 
+#footer .sysform select			{ color:#ffffff; background:transparent url(../images/opac-10.png); width:94%;}
+#footer .sysform input.txt		{ width:55%;} 
+
+.nivo-caption					{ background:#fff url(../images/opac-10.png);}
+.sysform input.txt, 
+.sysform textarea, 
+.sysform select					{ background:#fff;}
+
+#footer,
+#footer p						{ color:#858585; }
+
+#footer a,
+#footer #wp-calendar, 
+#footer #wp-calendar caption, 
+#footer #wp-calendar th, 
+#footer #wp-calendar td 		{ color:#5FACA7;}
+
+.subheader a,
+#footer a:hover					{ color:#ed6b00; }
+
+.copyright						{ background-color:#454545; }
+#footer .syswidget .widget_postslist li 		{ border:none;  }
+#footer .syswidget .widget_postslist ul li a 	{ background:none;  }
+
+#footer .syswidget ul li a			{  	}	

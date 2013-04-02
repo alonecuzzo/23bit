@@ -1,0 +1,1359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Brennuis\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-04 12:22+0200\n"
+"PO-Revision-Date: 2012-11-04 12:22+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: framework\n"
+
+#: framework/admin/admin-interface.php:223
+#: framework/admin/rating-criteria-page.php:7
+#: framework/admin/sidebars.php:7
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:8
+msgid "Options below will take place when 'Custom' theme color is selected."
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:16
+msgid "General"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:26
+msgid "Links Hover Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:35
+msgid "Links Hover Text Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:49
+msgid "Top Section Background Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:58
+msgid "Top Section Border Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:70
+msgid "Navigation"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:80
+msgid "Navigation Text Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:94
+msgid "Top Navigation Text Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:108
+msgid "Navigation Hover Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:117
+msgid "Navigation Hover Text Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:131
+msgid "Sub Menu Background Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:145
+msgid "Sub Menu Text Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:159
+msgid "Mobile Top Navigation Background Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:168
+msgid "Mobile Top Navigation Text Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:180
+msgid "Sidebar"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:190
+msgid "Sidebar Background Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:199
+msgid "Sidebar Background Pattern"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:213
+msgid "Sidebar Headers And Links Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:227
+msgid "Sidebar Text Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:239
+#: framework/admin/theme-options.php:636
+msgid "Blog"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:249
+msgid "Post Border Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:263
+#: framework/admin/custom-color-theme-options.php:305
+msgid "Rating Background Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:277
+msgid "Review Score Text Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:291
+msgid "Review Score 'score' Text Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:319
+msgid "Pagination Hover Text Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:331
+msgid "Widgets"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:341
+msgid "Tabs Background Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:350
+msgid "Tabs Text Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:362
+msgid "Other"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:372
+msgid "Buttons Background Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:381
+msgid "Buttons Text Color"
+msgstr ""
+
+#: framework/admin/custom-color-theme-options.php:390
+msgid "Buttons Shadow Color"
+msgstr ""
+
+#: framework/admin/rating-criteria-page.php:68
+msgid "All criterias are saved!"
+msgstr ""
+
+#: framework/admin/rating-criteria-page.php:73
+msgid "All criterias are deleted!"
+msgstr ""
+
+#: framework/admin/rating-criteria-page.php:79
+msgid "Rating Criteria"
+msgstr ""
+
+#: framework/admin/rating-criteria-page.php:80
+msgid "Add and delete your reviews ratings criteria. Click on edit button to edit criteria rating fields."
+msgstr ""
+
+#: framework/admin/rating-criteria-page.php:89
+msgid "Edit criteria fields"
+msgstr ""
+
+#: framework/admin/rating-criteria-page.php:96
+#: framework/admin/rating-criteria-page.php:100
+msgid "Add Field"
+msgstr ""
+
+#: framework/admin/rating-criteria-page.php:97
+msgid "Use unique name for each field (minimum 3 symbols)"
+msgstr ""
+
+#: framework/admin/rating-criteria-page.php:99
+msgid "Name"
+msgstr ""
+
+#: framework/admin/rating-criteria-page.php:108
+msgid "Save Changes"
+msgstr ""
+
+#: framework/admin/rating-criteria-page.php:115
+#: framework/admin/rating-criteria-page.php:119
+msgid "Add Criteria"
+msgstr ""
+
+#: framework/admin/rating-criteria-page.php:116
+msgid "Use unique name for each criteria (minimum 4 symbols)."
+msgstr ""
+
+#: framework/admin/rating-criteria-page.php:118
+#: framework/admin/sidebars.php:86
+msgid "Unique name"
+msgstr ""
+
+#: framework/admin/rating-criteria-page.php:154
+msgid "'Delete all criterias?'"
+msgstr ""
+
+#: framework/admin/rating-criteria-page.php:155
+#: framework/admin/sidebars.php:117
+msgid "Save changes"
+msgstr ""
+
+#: framework/admin/sidebars.php:65
+msgid "All custom sidebars are saved!"
+msgstr ""
+
+#: framework/admin/sidebars.php:70
+msgid "All custom sidebars are deleted!"
+msgstr ""
+
+#: framework/admin/sidebars.php:76
+msgid "Sidebars"
+msgstr ""
+
+#: framework/admin/sidebars.php:77
+msgid "Add and delete your custom sidebars."
+msgstr ""
+
+#: framework/admin/sidebars.php:83
+msgid "Add sidebar"
+msgstr ""
+
+#: framework/admin/sidebars.php:84
+msgid "Use unique name for each sidebar (minimum 4 symbols)."
+msgstr ""
+
+#: framework/admin/sidebars.php:87
+msgid "Add Sidebar"
+msgstr ""
+
+#: framework/admin/sidebars.php:116
+msgid "'Delete all custom sidebars?'"
+msgstr ""
+
+#: framework/admin/theme-options.php:169
+msgid "General Settings"
+msgstr ""
+
+#: framework/admin/theme-options.php:173
+msgid "Enable Text Logo"
+msgstr ""
+
+#: framework/admin/theme-options.php:178
+msgid "Enable text logo (your site name) rather than an image."
+msgstr ""
+
+#: framework/admin/theme-options.php:182
+msgid "Logo"
+msgstr ""
+
+#: framework/admin/theme-options.php:183
+msgid "Upload your logo or type your logo url address."
+msgstr ""
+
+#: framework/admin/theme-options.php:189
+msgid "Favicon"
+msgstr ""
+
+#: framework/admin/theme-options.php:190
+msgid "Upload your website favicon image 16px by 16px (png, gif or ico)."
+msgstr ""
+
+#: framework/admin/theme-options.php:196
+msgid "Slogan"
+msgstr ""
+
+#: framework/admin/theme-options.php:197
+msgid "Slogan text displayed under the logo."
+msgstr ""
+
+#: framework/admin/theme-options.php:203
+msgid "Responsive Design"
+msgstr ""
+
+#: framework/admin/theme-options.php:208
+msgid "Enable or disable responsive design."
+msgstr ""
+
+#: framework/admin/theme-options.php:212
+msgid "Feed URL"
+msgstr ""
+
+#: framework/admin/theme-options.php:213
+msgid "Enter your feed url."
+msgstr ""
+
+#: framework/admin/theme-options.php:219
+msgid "Tracking Code"
+msgstr ""
+
+#: framework/admin/theme-options.php:220
+msgid "Enter your tracking code here (Google Analytics or other) it will be inserted before the closing body tag."
+msgstr ""
+
+#: framework/admin/theme-options.php:228
+msgid "Contact E-mail Address"
+msgstr ""
+
+#: framework/admin/theme-options.php:229
+msgid "Type your e-mail address. It will be used to send you e-mails from contact page (by default its admin e-mail)."
+msgstr ""
+
+#: framework/admin/theme-options.php:235
+msgid "Contact confirmation text"
+msgstr ""
+
+#: framework/admin/theme-options.php:236
+msgid "Type here confirmation text that will appear when user sends you an e-mail."
+msgstr ""
+
+#: framework/admin/theme-options.php:242
+msgid "Custom JavaScript"
+msgstr ""
+
+#: framework/admin/theme-options.php:243
+msgid "Write here your custom javascript code without script tags."
+msgstr ""
+
+#: framework/admin/theme-options.php:249
+msgid "Footer Left Text"
+msgstr ""
+
+#: framework/admin/theme-options.php:250
+msgid "Text that will appear in footer left side."
+msgstr ""
+
+#: framework/admin/theme-options.php:256
+msgid "Footer Right Text"
+msgstr ""
+
+#: framework/admin/theme-options.php:257
+msgid "Text that will appear in footer right side."
+msgstr ""
+
+#: framework/admin/theme-options.php:263
+msgid "Enable Lightbox"
+msgstr ""
+
+#: framework/admin/theme-options.php:268
+msgid "Enable or disable lightbox"
+msgstr ""
+
+#: framework/admin/theme-options.php:272
+msgid "404 page title"
+msgstr ""
+
+#: framework/admin/theme-options.php:273
+msgid "Enter 404 page title."
+msgstr ""
+
+#: framework/admin/theme-options.php:279
+msgid "404 page content"
+msgstr ""
+
+#: framework/admin/theme-options.php:280
+msgid "Text that will appear on 404 page."
+msgstr ""
+
+#: framework/admin/theme-options.php:286
+msgid "Enable header banner"
+msgstr ""
+
+#: framework/admin/theme-options.php:291
+msgid "Enable or disable header banner"
+msgstr ""
+
+#: framework/admin/theme-options.php:295
+msgid "Select header banner type"
+msgstr ""
+
+#: framework/admin/theme-options.php:296
+msgid "Choose banner type."
+msgstr ""
+
+#: framework/admin/theme-options.php:304
+msgid "Header banner image"
+msgstr ""
+
+#: framework/admin/theme-options.php:305
+msgid "Upload top banner image (468 x 60px)."
+msgstr ""
+
+#: framework/admin/theme-options.php:311
+msgid "Header banner URL"
+msgstr ""
+
+#: framework/admin/theme-options.php:312
+msgid "Enter banner URL."
+msgstr ""
+
+#: framework/admin/theme-options.php:318
+msgid "Head banner text"
+msgstr ""
+
+#: framework/admin/theme-options.php:319
+msgid "Add here your advertisement code."
+msgstr ""
+
+#: framework/admin/theme-options.php:327
+msgid "Styling Options"
+msgstr ""
+
+#: framework/admin/theme-options.php:331
+msgid "Theme Color"
+msgstr ""
+
+#: framework/admin/theme-options.php:332
+msgid "Select theme color."
+msgstr ""
+
+#: framework/admin/theme-options.php:340
+msgid "Background Color"
+msgstr ""
+
+#: framework/admin/theme-options.php:346
+msgid "Select Background Type"
+msgstr ""
+
+#: framework/admin/theme-options.php:347
+msgid "Choose background type."
+msgstr ""
+
+#: framework/admin/theme-options.php:355
+msgid "Background Pattern"
+msgstr ""
+
+#: framework/admin/theme-options.php:356
+msgid "Select background pattern."
+msgstr ""
+
+#: framework/admin/theme-options.php:364
+msgid "Upload Background Pattern"
+msgstr ""
+
+#: framework/admin/theme-options.php:365
+msgid "Upload your background pattern."
+msgstr ""
+
+#: framework/admin/theme-options.php:371
+msgid "Background Image Repeat"
+msgstr ""
+
+#: framework/admin/theme-options.php:372
+msgid "Select your background image repeat option"
+msgstr ""
+
+#: framework/admin/theme-options.php:380
+msgid "Upload Background Image"
+msgstr ""
+
+#: framework/admin/theme-options.php:381
+msgid "Upload your global site background image."
+msgstr ""
+
+#: framework/admin/theme-options.php:387
+msgid "Custom CSS"
+msgstr ""
+
+#: framework/admin/theme-options.php:388
+msgid "Write here your custom CSS without style tags."
+msgstr ""
+
+#: framework/admin/theme-options.php:399
+msgid "Fonts"
+msgstr ""
+
+#: framework/admin/theme-options.php:403
+msgid "Headings Font"
+msgstr ""
+
+#: framework/admin/theme-options.php:404
+msgid "Select headings font (h1 - h6)."
+msgstr ""
+
+#: framework/admin/theme-options.php:412
+msgid "Body Font"
+msgstr ""
+
+#: framework/admin/theme-options.php:413
+msgid "Select content font."
+msgstr ""
+
+#: framework/admin/theme-options.php:423
+msgid "Social Icons"
+msgstr ""
+
+#: framework/admin/theme-options.php:427
+#: framework/admin/theme-options.php:542
+msgid "Twitter"
+msgstr ""
+
+#: framework/admin/theme-options.php:428
+msgid "Enter your Twitter url or leave it blank"
+msgstr ""
+
+#: framework/admin/theme-options.php:434
+#: framework/admin/theme-options.php:533
+msgid "Facebook"
+msgstr ""
+
+#: framework/admin/theme-options.php:435
+msgid "Enter your Facebook url or leave it blank"
+msgstr ""
+
+#: framework/admin/theme-options.php:441
+msgid "Flickr"
+msgstr ""
+
+#: framework/admin/theme-options.php:442
+msgid "Enter your Flickr url or leave it blank"
+msgstr ""
+
+#: framework/admin/theme-options.php:448
+#: framework/admin/theme-options.php:560
+msgid "Delicious"
+msgstr ""
+
+#: framework/admin/theme-options.php:449
+msgid "Enter your Delicious url or leave it blank"
+msgstr ""
+
+#: framework/admin/theme-options.php:455
+#: framework/admin/theme-options.php:569
+msgid "Digg"
+msgstr ""
+
+#: framework/admin/theme-options.php:456
+msgid "Enter your Digg url or leave it blank"
+msgstr ""
+
+#: framework/admin/theme-options.php:462
+msgid "Last fm"
+msgstr ""
+
+#: framework/admin/theme-options.php:463
+msgid "Enter your Last fm url or leave it blank"
+msgstr ""
+
+#: framework/admin/theme-options.php:469
+#: framework/admin/theme-options.php:578
+msgid "Linkedin"
+msgstr ""
+
+#: framework/admin/theme-options.php:470
+msgid "Enter your Linkedin url or leave it blank"
+msgstr ""
+
+#: framework/admin/theme-options.php:476
+msgid "RSS"
+msgstr ""
+
+#: framework/admin/theme-options.php:477
+msgid "Enter your RSS url or leave it blank"
+msgstr ""
+
+#: framework/admin/theme-options.php:483
+msgid "Stumble Upon"
+msgstr ""
+
+#: framework/admin/theme-options.php:484
+msgid "Enter your StumbleUpon url or leave it blank"
+msgstr ""
+
+#: framework/admin/theme-options.php:490
+msgid "Tumblr"
+msgstr ""
+
+#: framework/admin/theme-options.php:491
+msgid "Enter your Tumblr url or leave it blank"
+msgstr ""
+
+#: framework/admin/theme-options.php:497
+msgid "Vimeo"
+msgstr ""
+
+#: framework/admin/theme-options.php:498
+msgid "Enter your Vimeo url or leave it blank"
+msgstr ""
+
+#: framework/admin/theme-options.php:504
+msgid "Youtube"
+msgstr ""
+
+#: framework/admin/theme-options.php:505
+msgid "Enter your Youtube url or leave it blank"
+msgstr ""
+
+#: framework/admin/theme-options.php:511
+msgid "Dribbble"
+msgstr ""
+
+#: framework/admin/theme-options.php:512
+msgid "Enter your Dribbble url or leave it blank"
+msgstr ""
+
+#: framework/admin/theme-options.php:520
+msgid "Social Share"
+msgstr ""
+
+#: framework/admin/theme-options.php:524
+msgid "Pinterest"
+msgstr ""
+
+#: framework/admin/theme-options.php:529
+msgid "Enable Pinterest share on single posts"
+msgstr ""
+
+#: framework/admin/theme-options.php:538
+msgid "Enable Facebook share on single posts"
+msgstr ""
+
+#: framework/admin/theme-options.php:547
+msgid "Enable Twitter share on single posts"
+msgstr ""
+
+#: framework/admin/theme-options.php:551
+msgid "Google"
+msgstr ""
+
+#: framework/admin/theme-options.php:556
+msgid "Enable Google share on single posts"
+msgstr ""
+
+#: framework/admin/theme-options.php:565
+msgid "Enable Delicious share on single posts"
+msgstr ""
+
+#: framework/admin/theme-options.php:574
+msgid "Enable Digg share on single posts"
+msgstr ""
+
+#: framework/admin/theme-options.php:583
+msgid "Enable Linkedin share on single posts"
+msgstr ""
+
+#: framework/admin/theme-options.php:587
+msgid "StumbleUpon"
+msgstr ""
+
+#: framework/admin/theme-options.php:592
+msgid "Enable StumbleUpon share on single posts"
+msgstr ""
+
+#: framework/admin/theme-options.php:598
+msgid "Slider Module"
+msgstr ""
+
+#: framework/admin/theme-options.php:602
+msgid "Slider Animation"
+msgstr ""
+
+#: framework/admin/theme-options.php:603
+#: framework/admin/theme-options.php:684
+msgid "Select slider transition."
+msgstr ""
+
+#: framework/admin/theme-options.php:611
+#: framework/admin/theme-options.php:692
+msgid "Enable Slider Slideshow"
+msgstr ""
+
+#: framework/admin/theme-options.php:616
+#: framework/admin/theme-options.php:697
+msgid "Enable or disable slider autoplay."
+msgstr ""
+
+#: framework/admin/theme-options.php:620
+#: framework/admin/theme-options.php:701
+msgid "Slider Slideshow Speed"
+msgstr ""
+
+#: framework/admin/theme-options.php:621
+#: framework/admin/theme-options.php:702
+msgid "Input slider slideshow speed value (1000 = 1s)."
+msgstr ""
+
+#: framework/admin/theme-options.php:627
+#: framework/admin/theme-options.php:708
+msgid "Slider Animation Duration"
+msgstr ""
+
+#: framework/admin/theme-options.php:628
+#: framework/admin/theme-options.php:709
+msgid "Input slider animation duration value (1000 = 1s)."
+msgstr ""
+
+#: framework/admin/theme-options.php:640
+msgid "Enable Posts Footer Social Share"
+msgstr ""
+
+#: framework/admin/theme-options.php:645
+msgid "Enable or disable social share on blog posts."
+msgstr ""
+
+#: framework/admin/theme-options.php:649
+msgid "Enable About The Author Box"
+msgstr ""
+
+#: framework/admin/theme-options.php:654
+msgid "Enable or disable about the author box in posts."
+msgstr ""
+
+#: framework/admin/theme-options.php:658
+msgid "Enable Related Posts Carousel"
+msgstr ""
+
+#: framework/admin/theme-options.php:663
+msgid "Enable or disable related posts carousel."
+msgstr ""
+
+#: framework/admin/theme-options.php:667
+msgid "Number Of Related Posts"
+msgstr ""
+
+#: framework/admin/theme-options.php:668
+msgid "Enter the number of related posts in carousel"
+msgstr ""
+
+#: framework/admin/theme-options.php:674
+msgid "Sidebar Position"
+msgstr ""
+
+#: framework/admin/theme-options.php:675
+msgid "Select Blog sidebar position."
+msgstr ""
+
+#: framework/admin/theme-options.php:683
+msgid "Gallery Post Slider Animation"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:7
+msgid "Link"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:8
+msgid "Options for post format - Link"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:12
+msgid "Link URL"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:13
+msgid "URL:"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:20
+msgid "Quote"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:21
+msgid "Options for post format - Quote"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:25
+#: framework/extensions/extensions.blog.php:26
+msgid "Quote text:"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:32
+msgid "Quote author"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:33
+msgid "Quote author:"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:40
+msgid "Video"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:41
+msgid "Options for post format - Video"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:45
+#: framework/extensions/extensions.blog.php:46
+msgid "Video embed code:"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:53
+msgid "Audio"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:54
+msgid "Options for post format - Audio"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:58
+msgid "Audio embed code:"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:59
+msgid "SoundCloud embed code:"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:80
+msgid "Enable or disable page style options"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:87
+msgid "Enable changes:"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:94
+msgid "Background style options"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:101
+msgid "Background Color:"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:108
+#: framework/extensions/extensions.blog.php:109
+msgid "Background image:"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:116
+msgid "Background repeat:"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:127
+msgid "Category Page Options"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:134
+msgid "Posts Category:"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:141
+msgid "Enable Pagination:"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:148
+msgid "Number of posts:"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:204
+msgid "Select rating criteria and click publish/update button."
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:286
+msgid "Use for review post"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:293
+msgid "Review Verdict:"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:311
+msgid "Post formats options"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:312
+msgid "Review Post Options"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:315
+#: framework/extensions/extensions.blog.php:316
+msgid "Page Style Options"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:320
+msgid "Category Options"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:339
+msgid "Read More &rarr;"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:368
+#: framework/extensions/extensions.blog.php:819
+#: framework/extensions/extensions.blog.php:873
+msgid "Nothing found!"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:439
+msgid "score"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:597
+msgid "About the author"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:645
+msgid "Previuos Story"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:652
+msgid "Next Story"
+msgstr ""
+
+#: framework/extensions/extensions.blog.php:761
+msgid "Related Posts"
+msgstr ""
+
+#: framework/extensions/extensions.comments.php:23
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/extensions/extensions.comments.php:29
+msgid "[Edit]"
+msgstr ""
+
+#: framework/extensions/extensions.comments.php:30
+msgid "/ "
+msgstr ""
+
+#: framework/extensions/extensions.other.php:478
+msgid "Name*"
+msgstr ""
+
+#: framework/extensions/extensions.other.php:482
+msgid "Email*"
+msgstr ""
+
+#: framework/extensions/extensions.other.php:486
+msgid "Website"
+msgstr ""
+
+#: framework/extensions/extensions.other.php:494
+msgid "Leave a Comment"
+msgstr ""
+
+#: framework/extensions/extensions.other.php:498
+msgid "Leave a Reply"
+msgstr ""
+
+#: framework/extensions/extensions.other.php:503
+msgid "Add Comment"
+msgstr ""
+
+#: framework/extensions/extensions.other.php:504
+msgid "Add Your Comment"
+msgstr ""
+
+#: framework/extensions/extensions.shortcodes.php:18
+#: framework/extensions/extensions.shortcodes.php:19
+#: framework/extensions/extensions.shortcodes.php:20
+msgid "Shortcode Generator"
+msgstr ""
+
+#: framework/extensions/extensions.shortcodes.php:29
+msgid "Switch to HTML preview and choose shortcode to insert."
+msgstr ""
+
+#: framework/extensions/extensions.sidebars.php:28
+msgid "Page sidebar options"
+msgstr ""
+
+#: framework/extensions/extensions.sidebars.php:35
+msgid "Sidebar position:"
+msgstr ""
+
+#: framework/extensions/extensions.sidebars.php:43
+msgid "Choose sidebar:"
+msgstr ""
+
+#: framework/extensions/extensions.sidebars.php:58
+#: framework/extensions/extensions.sidebars.php:61
+msgid "Sidebar Options"
+msgstr ""
+
+#: framework/extensions/extensions.sliders.php:15
+#: framework/extensions/extensions.sliders.php:16
+msgid "Sliders"
+msgstr ""
+
+#: framework/extensions/extensions.sliders.php:17
+msgid "Add New"
+msgstr ""
+
+#: framework/extensions/extensions.sliders.php:18
+msgid "Add New Slider"
+msgstr ""
+
+#: framework/extensions/extensions.sliders.php:19
+msgid "Edit Slider"
+msgstr ""
+
+#: framework/extensions/extensions.sliders.php:20
+msgid "New Slider"
+msgstr ""
+
+#: framework/extensions/extensions.sliders.php:21
+msgid "View Slider"
+msgstr ""
+
+#: framework/extensions/extensions.sliders.php:22
+msgid "Search Sliders"
+msgstr ""
+
+#: framework/extensions/extensions.sliders.php:23
+msgid "No Sliders found"
+msgstr ""
+
+#: framework/extensions/extensions.sliders.php:24
+msgid "No Sliders found in Trash"
+msgstr ""
+
+#: framework/extensions/extensions.sliders.php:41
+msgid "sliders"
+msgstr ""
+
+#: framework/extensions/extensions.sliders.php:50
+msgid "Slider Options"
+msgstr ""
+
+#: framework/extensions/extensions.sliders.php:99
+msgid "No slides found."
+msgstr ""
+
+#: framework/extensions/extensions.sliders.php:105
+msgid "Upload Slides"
+msgstr ""
+
+#: framework/extensions/extensions.sliders.php:107
+msgid "Edit Slides"
+msgstr ""
+
+#: framework/extensions/extensions.sliders.php:121
+msgid "Slide Title: "
+msgstr ""
+
+#: framework/extensions/extensions.sliders.php:124
+msgid "Enter slide title"
+msgstr ""
+
+#: framework/extensions/extensions.sliders.php:129
+msgid "Slide Caption: "
+msgstr ""
+
+#: framework/extensions/extensions.sliders.php:132
+msgid "Enter slide caption"
+msgstr ""
+
+#: framework/extensions/extensions.sliders.php:137
+msgid "Slide link URL: "
+msgstr ""
+
+#: framework/extensions/extensions.sliders.php:140
+msgid "Enter slide link URL"
+msgstr ""
+
+#: framework/page-builder/Modules.php:95
+#: framework/post-formats/small-footer.php:20
+msgid "No Comments"
+msgstr ""
+
+#: framework/page-builder/Modules.php:97
+#: framework/post-formats/small-footer.php:20
+msgid "Comment"
+msgstr ""
+
+#: framework/page-builder/Modules.php:99
+#: framework/post-formats/small-footer.php:20
+msgid "Comments"
+msgstr ""
+
+#: framework/page-builder/Modules.php:475
+#: framework/page-builder/Modules.php:713
+msgid "by"
+msgstr ""
+
+#: framework/page-builder/Modules.php:475
+#: framework/page-builder/Modules.php:713
+msgid "in"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:15
+msgid "Page Builder"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:38
+msgid "Edit module settings"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:47
+#: framework/widgets/widget.banner300.php:61
+#: framework/widgets/widget.banners125.php:121
+msgid "Title:"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:59
+msgid "Choose category:"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:67
+msgid "Slider Type:"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:69
+msgid "Blog Posts"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:70
+msgid "Custom"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:76
+msgid "Choose Category:"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:84
+msgid "Choose Slider:"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:92
+msgid "Text type:"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:94
+msgid "Custom text"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:95
+msgid "Page content"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:98
+msgid "Custom text:"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:111
+msgid "Section title link navigates to:"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:113
+msgid "Category page"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:114
+msgid "Custom link"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:119
+msgid "Custom link:"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:131
+msgid "Add module:"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:134
+msgid "Select module"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:135
+msgid "Posts"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:136
+msgid "Posts Column"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:137
+msgid "Carousel"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:138
+msgid "Slider"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:139
+msgid "Text"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:140
+msgid "Text Column"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:142
+msgid "Video Column"
+msgstr ""
+
+#: framework/page-builder/page-builder-init.php:144
+msgid "Add module"
+msgstr ""
+
+#: framework/page-builder/PageBuilder.php:126
+msgid "No modules!"
+msgstr ""
+
+#: framework/page-builder/PageBuilder.php:238
+#: framework/page-builder/PageBuilder.php:240
+msgid "- Recent Blog Posts"
+msgstr ""
+
+#: framework/post-formats/small-footer.php:12
+msgid "by "
+msgstr ""
+
+#: framework/post-formats/small-footer.php:12
+msgid " in "
+msgstr ""
+
+#: framework/widgets/widget.banner300.php:65
+msgid "Image URL (300x250px):"
+msgstr ""
+
+#: framework/widgets/widget.banners125.php:126
+msgid "Image 1 URL (125x125px):"
+msgstr ""
+
+#: framework/widgets/widget.banners125.php:130
+msgid "URL 1:"
+msgstr ""
+
+#: framework/widgets/widget.banners125.php:135
+msgid "Image 2 URL (125x125px):"
+msgstr ""
+
+#: framework/widgets/widget.banners125.php:139
+msgid "URL 2:"
+msgstr ""
+
+#: framework/widgets/widget.banners125.php:144
+msgid "Image 3 URL (125x125px):"
+msgstr ""
+
+#: framework/widgets/widget.banners125.php:148
+msgid "URL 3:"
+msgstr ""
+
+#: framework/widgets/widget.banners125.php:153
+msgid "Image 4 URL (125x125px):"
+msgstr ""
+
+#: framework/widgets/widget.banners125.php:157
+msgid "URL 4:"
+msgstr ""
+
+#: framework/widgets/widget.facebook.php:103
+msgid "Facebook Page name:"
+msgstr ""
+
+#: framework/widgets/widget.facebook.php:107
+msgid "Height:"
+msgstr ""
+
+#: framework/widgets/widget.facebook.php:111
+msgid "Show faces:"
+msgstr ""
+
+#: framework/widgets/widget.facebook.php:115
+msgid "Show Stream:"
+msgstr ""
+
+#: framework/widgets/widget.facebook.php:119
+msgid "Show Header:"
+msgstr ""
+
+#: framework/widgets/widget.flickr.php:68
+msgid "Select Source:"
+msgstr ""
+
+#: framework/widgets/widget.flickr.php:70
+msgid "User"
+msgstr ""
+
+#: framework/widgets/widget.flickr.php:71
+msgid "Group"
+msgstr ""
+
+#: framework/widgets/widget.flickr.php:75
+msgid "Flickr ID:"
+msgstr ""
+
+#: framework/widgets/widget.flickr.php:79
+msgid "Number of photos:"
+msgstr ""
+
+#: framework/widgets/widget.flickr.php:83
+msgid "Display:"
+msgstr ""
+
+#: framework/widgets/widget.flickr.php:85
+msgid "Latest"
+msgstr ""
+
+#: framework/widgets/widget.flickr.php:86
+msgid "Random"
+msgstr ""
+
+#: framework/widgets/widget.recent.posts.php:133
+#: framework/widgets/widget.tabs.php:179
+msgid "Posts category name:"
+msgstr ""
+
+#: framework/widgets/widget.social.php:123
+msgid "Subscribe"
+msgstr ""
+
+#: framework/widgets/widget.social.php:129
+msgid "Followers"
+msgstr ""
+
+#: framework/widgets/widget.social.php:135
+msgid "Fans"
+msgstr ""
+
+#: framework/widgets/widget.social.php:160
+msgid "FeedBurner ID:"
+msgstr ""
+
+#: framework/widgets/widget.social.php:165
+#: framework/widgets/widget.twitter.php:153
+msgid "Twitter Name:"
+msgstr ""
+
+#: framework/widgets/widget.social.php:170
+msgid "Facebook Page:"
+msgstr ""
+
+#: framework/widgets/widget.tabs.php:131
+msgid "Recent"
+msgstr ""
+
+#: framework/widgets/widget.tabs.php:133
+msgid "Tags"
+msgstr ""
+
+#: framework/widgets/widget.tabs.php:189
+msgid "Number of comments:"
+msgstr ""
+
+#: framework/widgets/widget.twitter.php:157
+msgid "Number of tweets:"
+msgstr ""
+
+#: framework/widgets/widget.twitter.php:161
+msgid "Follow link:"
+msgstr ""
+
+#: framework/widgets/widget.video.php:56
+msgid "Video Title:"
+msgstr ""
+
+#: framework/widgets/widget.video.php:60
+msgid "Video Source:"
+msgstr ""
+
+#: framework/widgets/widget.video.php:64
+msgid "Video Height:"
+msgstr ""
+

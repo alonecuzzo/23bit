@@ -35,8 +35,7 @@
 				<?php endfor; ?>
 			</div>
 			<div class="bottom">
-				<a href="http://mintthemes.com"><img src="<?php echo get_template_directory_uri(); ?>/images/img01.png" alt="image" width="25" height="27" ></a>
-				<p><?php printf( __( '&copy; %1$d %2$s. Powered by <a href="%3$s">WordPress</a> - Intro Theme by <a href="%4$s">Mint Themes</a>', 'intro' ), date( 'Y' ), get_bloginfo( 'name' ), esc_url( 'http://wordpress.org' ), esc_url( 'http://mintthemes.com' ) ); ?></p>
+				<p><?php printf( __( '&copy; %1$d %2$s. Powered by los patos', 'intro' ), date( 'Y' ), get_bloginfo( 'name' ), esc_url( 'http://wordpress.org' ), esc_url( 'http://mintthemes.com' ) ); ?></p>
 			</div>
 		</div>
 	</footer><!-- / footer -->

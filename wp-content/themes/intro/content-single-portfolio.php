@@ -17,12 +17,12 @@
 				<?php
 					$gallery = get_children( array(
 						'post_parent'    => $post->ID,
-						'post_type'      => 'attachment',
+						'post_type'      => 'any',
 						'post_mime_type' => 'image',
 						'numberposts'    => -1,
 					) );
 					
-					if ( $gallery ) :
+					if ( !empty( $gallery ) ) :
 				?>
 				<div id="video" class="image slideshow">
 					<ul class="gallery">
@@ -31,7 +31,7 @@
 								<div class="w1">
 									<div class="w2">
 										<?php echo wp_get_attachment_link( $image->ID, 'blog-inside' ); ?>
-										<?php if ( intro_get_theme_option( 'portfolio_show_titles' ) == 'on' ) : ?>
+										<?php if ( intro_get_theme_option( 'portfolio_show_titles' ) == 'off' ) : ?>
 										<div class="description">
 											<div class="holder">
 												<h2><a href="<?php echo wp_get_attachment_url( $image->ID ); ?>"><?php echo get_the_title( $image->ID ); ?></a></h2>
@@ -47,9 +47,8 @@
 				</div>
 				<?php endif; ?>
 			<?php endif; ?>
-			
 			<div class="info">
-				<h2><?php the_title(); ?></h2>
+				<h2><?php the_title();?></h2>
 				<p><?php echo get_the_term_list( $post->ID, 'portfolio_category', '', ', ', '' ); ?></p>
 				<?php the_content(); ?>
 			</div>
