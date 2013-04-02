@@ -1,0 +1,56 @@
+body 							{ outline:none;}
+.postoptions					{ padding:0px; padding-top:0;  }
+
+#sys_link .select,
+.postoptions select,
+.postoptions textarea,
+.postoptions input[type=text]		{ width:100%; margin-top:3px !important; padding: 7px !important;  background:#fff; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px; border:1px solid; border-color: #aaa #ddd #ddd #aaa;}
+
+.postoptions input[type=checkbox] 
+								{ padding:3px !important; }
+
+.postoptions .box-option			{ width:100%; padding:5px 0 0 0; margin-right:15px;}
+.postoptions .box-info			{ padding:0; color:#444; font:italic normal 11px/16px verdana, Arial, Helvetica, sans-serif;  }
+
+.hidden							{ display:none;}
+.postoptions label  			{ display:inline; }
+
+#sys_link .select,
+.postoptions select:focus,
+.postoptions input:focus,
+.postoptions textarea:focus		{ background:#ffffff;}
+
+
+.adcontentbox select:focus,
+.adcontentbox input:focus,
+.adcontentbox textarea:focus		{ background:#ffffff;}
+
+.hide 							{ display:none}
+#page_lists_plus_box, 
+#new-meta-boxes					{  }
+.postoptions .metabox			{ margin-bottom:10px;  }
+.postoptions .metabox label		{ padding:5px 0 !important;  }
+.metainner 						{ padding:15px;border:1px solid #dfdfdf; background:#f9f9f9;}
+
+input.smallinput					{ width:200px !important;}
+input.mediuminput					{ width:350px !important;}
+
+
+#customurl select 		{ height:auto !important; width:auto !important;}
+
+.colorbox 						{ overflow:hidden; }
+.colorbox .simple-option		{ float:left; display:inline; width:200px; padding:10px; margin-right:10px; }
+.colorbox .simple-option input	{ width:100px; }
+.colorbox .simple-info			{ float:left; padding:10px; margin-left:10px; color:#444; font-weight:bold; line-height:22px;  }
+
+.box-option select {
+	width:200px;
+    font-size: 12px;
+    height: 3em !important;
+    padding: 3px 5px;
+}
+
+
+.metabox         { font-size:12px; width:auto; background:rgba(0, 0, 0, 0.05); margin:0 auto 5px auto; padding:5px; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; }
+.metabox label.title   { font-weight:bold; font-size:12px; line-height:20px; }
+.metainner       { background-color:#FFFFFF; border:1px solid #ddd; border-color:rgba(0,0,0,0.2); padding:20px; margin:0 auto;  -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; overflow:hidden;}
